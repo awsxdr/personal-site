@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    on-failure: ABORT
+    runtime-versions:
+      nodejs: 14.x
+
+  build:
+    on-failure: ABORT
+    commands:
+      - npm i
+      - npm run build
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build
+  name: build-output
