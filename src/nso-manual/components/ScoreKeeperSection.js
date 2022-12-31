@@ -149,9 +149,6 @@ const Body = () => (
         </p>
         <Score12 />
         <p>
-            Find the colour’s assigned Jammer Referee and ask them to double check the scores and the maths. They can then sign this sheet.
-        </p>
-        <p>
             Transcribe the Game Total at the bottom of period one to the top of the next sheet. The Jammer Referees will switch their roles and the Scorekeeper will switch with them, staying with the same Referee for the second period. Trade paperwork and coloured wristbands with the other Scorekeeper.
         </p>
         <p>

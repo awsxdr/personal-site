@@ -19,11 +19,11 @@ const Body = () => (
             The software utilised by RCRD is the Carolina Roller Derby Scoreboard.
         </p>
         <p>
-            Before the game, the Scoreboard should be set up with the rosters of both teams. This can be done on the Teams tab on the Main Operator Control Panel.
+            Before the game, the Scoreboard should be set up with the rosters of both teams. This can be done on the Teams tab on the Scoreboard Operator Panel.
         </p>
         <Scoreboard1 />
         <p>
-            Enter the name of the team in the box on the right-hand side and click New Team. This new team can then be selected from the drop-down menu on the left.
+            Enter the name of the league and team in the boxes.
         </p>
         <Scoreboard2 />
         <p>
@@ -45,11 +45,11 @@ const Body = () => (
             At the game, once the video projector and computer are started, the Operator will want to double-check the rosters of both teams as well as logo and sponsor graphics. It is up to the Operator to decide if they will us hotkeys or mouse (or combination of both) for updates during the game. RCRD recommend the use of hotkeys. These can be set up as preferred by the Operator.
         </p>
         <p>
-            For the game itself the Operator will use the Team/Time tab. Click Start New Game to select the teams for the game.
+            For the game itself the Operator will use the Controls tab. Click Start New Game to select the teams for the game. The name to be displayed (League, Team or Full) can be selected in the Settings Tab.
         </p>
         <Scoreboard6 />
         <p>
-            On the control screen, update the following information during the game:
+            On the Control screen, update the following information during the game:
         </p>
         <p>
             <span style={{ fontWeight: 'bold' }}>START/STOP JAM</span> – There is a single short whistle to start the jam, and four short whistles to stop the jam (do not stop the jam until the 4th whistle has sounded).
@@ -61,10 +61,10 @@ const Body = () => (
             <span style={{ fontWeight: 'bold' }}>RETAINED</span> — If the Official Review is successful, click this button. Otherwise do nothing.
         </p>
         <p>
-            <span style={{ fontWeight: 'bold' }}>SCORE</span> -1/+1 – Each team has a set of these buttons. The Scorekeepers will advise how many points to add to scores. Points can also be subtracted if there are miscommunications. The score must updated on each scoring trip.
+            <span style={{ fontWeight: 'bold' }}>POINTS -1/+1</span> – Each team has a set of these buttons. The Scorekeepers will advise how many points to add to scores. Points can also be subtracted if there are miscommunications. The score must updated on each scoring trip.
         </p>
         <p>
-            <span style={{ fontWeight: 'bold' }}>LEAD, NO LEAD, AND JAMMER DROP-DOWN</span> – More experienced Operators can select who the Jammers are from the drop-down boxes and indicate who has earned Lead Jammer status.
+            <span style={{ fontWeight: 'bold' }}>LEAD, NO LEAD, AND JAMMER/PIVOT LISTS</span> – More experienced Operators can select who the Jammers/Pivots are from the lists and indicate who has earned Lead Jammer status.
         </p>
         <p>
             <span style={{ fontWeight: 'bold' }}>STAR PASS</span> — If the Jammers and Pivots have been selected from the drop-down menus, this button will change the names on the Scoreboard.
@@ -108,7 +108,7 @@ const Body = () => (
             Make sure that the Intermission clock has started.
         </p>
         <p>
-            Double check with the Scorekeepers and Jammer Referees that the score is correct.
+            Double check with the Scorekeepers that the score is correct.
         </p>
         <p>
             Once the second period starts, make sure that the Jam Number has reset to 1.
