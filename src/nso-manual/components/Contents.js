@@ -12,6 +12,9 @@ export const Contents = ({ pages }) => {
             <ul>
                 { pages?.map(({ title }) => (<li><a href={`/nso/${title.toLowerCase().replaceAll(' ', '-')}`}>{title}</a> (<a href={`/nso/pdfs/${title.toLowerCase().replaceAll(' ', '-')}.pdf`} target="_blank">pdf</a>)</li>))}
             </ul>
+            <p style={{marginTop: '3em'}}>
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style={{ borderWidth: 0 }} src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
         </Paper>
     );
 }
