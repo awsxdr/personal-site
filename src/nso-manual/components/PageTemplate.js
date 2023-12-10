@@ -63,7 +63,7 @@ export const PageTemplate = ({ pages }) => {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="h6" component="div">
-                            Pretty Miffed's NSO Manual
+                            <a href="/nso" style={{color:'inherit', textDecoration:'none'}}>Pretty Miffed's NSO Manual</a>
                         </Typography>
                     </Toolbar>
                 </AppBar>
