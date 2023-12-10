@@ -16,7 +16,7 @@ const Body = () => (
         </ul>
         <Typography variant="h5">Paperwork</Typography>
         <p>
-            The software utilised by RCRD is the Carolina Roller Derby Scoreboard.
+        The software recommended for use is the `Carolina Roller Derby Scoreboard'.
         </p>
         <p>
             Before the game, the Scoreboard should be set up with the rosters of both teams. This can be done on the Teams tab on the Scoreboard Operator Panel.
@@ -27,9 +27,8 @@ const Body = () => (
         </p>
         <Scoreboard2 />
         <p>
-            The logos for the teams are stored in the folder [Scoreboard Folder]\html\images\teamlogo. If a new logo is needed for the team, just copy it to this location.
+            The logos for the teams are stored in the folder [Scoreboard Folder]\html\images\teamlogo. If a new logo is needed for the team, use the Upload button.
         </p>
-        <Scoreboard3 />
         <p>
             On the Control screen, select the logo from the drop-down menu underneath the team name. Add the skater details below. Captains can be selected through the drop-down menu at the end of the skater’s row.
         </p>
@@ -42,7 +41,7 @@ const Body = () => (
         </p>
         <Scoreboard5 />
         <p>
-            At the game, once the video projector and computer are started, the Operator will want to double-check the rosters of both teams as well as logo and sponsor graphics. It is up to the Operator to decide if they will us hotkeys or mouse (or combination of both) for updates during the game. RCRD recommend the use of hotkeys. These can be set up as preferred by the Operator.
+            At the game, once the video projector and computer are started, the Operator will want to double-check the rosters of both teams as well as logo and sponsor graphics. It is up to the Operator to decide if they will us hotkeys or mouse (or combination of both) for updates during the game. It is recommended to use hotkeys. These can be set up as preferred by the Operator.
         </p>
         <p>
             For the game itself the Operator will use the Controls tab. Click Start New Game to select the teams for the game. The name to be displayed (League, Team or Full) can be selected in the Settings Tab.
@@ -61,6 +60,9 @@ const Body = () => (
             <span style={{ fontWeight: 'bold' }}>RETAINED</span> — If the Official Review is successful, click this button. Otherwise do nothing.
         </p>
         <p>
+            <span style={{ fontWeight: 'bold' }}>ADD/REMOVE TRIP</span> – Use these buttons to make sure that the Jammer is being recorded as being on the correct Trip.
+        </p>
+        <p>
             <span style={{ fontWeight: 'bold' }}>POINTS -1/+1</span> – Each team has a set of these buttons. The Scorekeepers will advise how many points to add to scores. Points can also be subtracted if there are miscommunications. The score must updated on each scoring trip.
         </p>
         <p>
@@ -68,6 +70,9 @@ const Body = () => (
         </p>
         <p>
             <span style={{ fontWeight: 'bold' }}>STAR PASS</span> — If the Jammers and Pivots have been selected from the drop-down menus, this button will change the names on the Scoreboard.
+        </p>
+        <p>
+        For further information on the operation of the Scoreboard, read the Wiki found at <a href="https://github.com/rollerderby/scoreboard/" target="_blank">Carolina Roller Derby Scoreboard</a>.
         </p>
         <Typography variant="h5">Procedures</Typography>
         <p>
@@ -101,7 +106,7 @@ const Body = () => (
             The Scoreboard Operator will be able to issue this penalty themselves unless the Head Referee says otherwise, this will be clarified before the start of the game. If the penalty should be issued to the Captain, this should be reported to the Head Referee who will issue this.
         </p>
         <p>
-            Issuing penalties must be done in accordance with Officiating Discretion. The correct verbal cue and hand signal must be used, these can be found in <a href="http://static.wftda.com/officiating/wftda-officiating-cues-codes-and-signals.pdf" target="_blank">WFTDA Officiating Cues, Codes And Signals</a> — see Section 3.3.
+            Issuing penalties must be done in accordance with Officiating Discretion. The correct verbal cue and hand signal must be used, these can be found in <a href="http://static.wftda.com/officiating/wftda-officiating-cues-codes-and-signals.pdf" target="_blank">WFTDA Officiating Cues, Codes And Signals</a>.
         </p>
         <Typography variant="h5">End of First Period</Typography>
         <p>

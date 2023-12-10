@@ -15,15 +15,15 @@ export const Home = () => {
     return (
         <PageTemplate pages={[ 
             PenaltyTrackerSection,
+            LineupTrackerSection,
             PenaltyLineupTrackerSection,
-            JamTimerSection,
             InsideWhiteboardSection,
             PenaltyWranglerSection,
             PenaltyBoxManagerSection,
             PenaltyBoxTimerSection,
+            JamTimerSection,
             ScoreKeeperSection,
-            ScoreboardOperatorSection,
-            LineupTrackerSection
+            ScoreboardOperatorSection
         ]} />
     )
 }
