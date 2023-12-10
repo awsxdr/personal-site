@@ -5,7 +5,7 @@ const Body = () => (
     <React.Fragment>
         <Typography variant="h5">General Description</Typography>
         <p>
-            Jam Timers start jams with a single whistle, and end the jams if they reach their natural conclusion of 2 minutes with four short whistles. Timers also use hand signals to communicate with the Scoreboard Operator when there is a timeout. Whistles are important and the Jam Timer should know the appropriate technique as well as when and how many. Timers are strongly encouraged to use FOX 40 Classic brand whistles.
+        Jam Timers are responsible for monitoring the time shown on the Scoreboard and blowing whistles to start and stop jams as appropriate. Jam Timers start jams with a single whistle, and end the jams if they reach their natural conclusion of 2 minutes with four short whistles. Timers also use hand signals to communicate with the Scoreboard Operator when there is a timeout or when there is a major discrepancy between the time displayed on the Scoreboard and the back-up stopwatches. Whistles are important and the Jam Timer should know the appropriate technique as well as when and how many. Timers are strongly encouraged to use FOX 40 Classic brand whistles.
         </p>
         <Typography variant="h5">Equipment Needed</Typography>
         <ul>
@@ -17,7 +17,7 @@ const Body = () => (
             Prior to the start of any jam, Timers will shout a 5 second warning and raise their open hand over their head. When it is time for the jam to begin, sound a short, loud whistle and start the jam stopwatch while chopping the air with the raised hand at the same time. Start the period stopwatch at the same time for the first jam. Continue to point at the area in front of the foremost skater until all skaters appear to be aware that the jam has started.
         </p>
         <p>
-            Check the jam stopwatch regularly and be prepared to stop the jam when the time reaches 2:00 minutes.
+        Check the jam time on the Scoreboard regularly and be prepared to stop the jam when the time reaches 2:00 minutes.
         </p>
         <p>
             If the Jammer calls off the jam, immediately restart the jam stopwatch for the lineup. If the jam runs to its natural conclusion of 2 minutes, simultaneously blow 4 short whistles and start the lineup at the same time. Use the appropriate hand signal while calling off the jam.
@@ -50,7 +50,7 @@ const Body = () => (
         <ul>
             <li>Simultaneously blow another 4 whistles, stop the period stopwatch and start the jam stopwatch (it is now the timeout stopwatch).</li>
             <li>Verbally announce the timeout while also using the appropriate hand signal. If a team calls for a Team Timeout but do not have any remaining, but do have an Official Review for that period, it will be assumed that they are using the Review as a timeout</li>
-            <li>Jam Timers should stand on the Pivot line and alternate between the appropriate hand signal and point to the team bench if they have called a Team Timeout or Official Review</li>
+            <li>Jam Timers should stand on the Pivot line and alternate between the appropriate hand signal and pointing to the team bench if they have called a Team Timeout or Official Review</li>
             <li>Official Timeouts last as long as needed, if this is so, reset the jam stopwatch</li>
             <li>Official Reviews last as long as needed, unless used as a Timeout which will last 1 minute. If not being used as a Timeout, reset the stopwatch</li>
             <li>Otherwise, Team Timeouts last 1 minute</li>

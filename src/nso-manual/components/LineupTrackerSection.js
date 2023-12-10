@@ -64,7 +64,7 @@ const Body = () => (
                 <li>Blocker #66 went to the Box twice in the same jam.</li>
                 <li>When #66 went to the Box in the second jam, the jam ended before their time was served and they returned to play in the third jam.</li>
                 <li>#01 went to the box in the first jam but did not sit before the jam ended, they served their time and returned to play in the second jam.</li>
-                <li>#99 went to the box in the second jam but did not sit before the jam ended, the third jam also ended before their time was served and they returned to play in the forth jam.</li>
+                <li>#99 went to the box in the second jam but did not sit before the jam ended, the third jam also ended before their time was served and they returned to play in the fourth jam.</li>
             </ol>
         </Typography>
         <Typography variant="h5">Star Passes</Typography>
@@ -118,6 +118,8 @@ const Body = () => (
         <p>
             Announce when a star pass is happening so that it can be recorded by both Lineup Trackers. It is also good to check the number of the jam with each other.
         </p>
+        <p>During all timeouts, check the number of tallies with the Inside Whiteboard/Penalty Tracker and the Penalty Box staff to make sure that they agree.</p>
+
         <Typography variant="h5">Penalties</Typography>
         <Typography variant="h6">Misconduct</Typography>
         <p style={{ fontWeight: 'bold' }}>Scenario C4.3.F</p>

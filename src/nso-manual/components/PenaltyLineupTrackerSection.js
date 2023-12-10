@@ -73,7 +73,7 @@ const Body = () => (
                 <li>Blocker #2121 went to the Box twice in the same jam.</li>
                 <li>When #2121 went to the Box in the second jam, the jam ended before their time was served and they returned to play in the third jam.</li>
                 <li>#01 went to the box in the ﬁrst jam but did not sit before the jam ended, they served their time and returned to play in the second jam.</li>
-                <li>#16 went to the box in the second jam but did not sit before the jam ended, the third jam also ended before their time was served and they returned to play in the forth jam.</li>
+                <li>#16 went to the box in the second jam but did not sit before the jam ended, the third jam also ended before their time was served and they returned to play in the fourth jam.</li>
             </ol>
             This shows that skater #2121 was issued a total of 3 penalties; Use of Forearms and a Back Block in the ﬁrst jam, and a Low Block in jam 2.
         </Typography>
